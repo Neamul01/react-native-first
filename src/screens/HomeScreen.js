@@ -22,6 +22,8 @@ const HomeScreen = ({ navigation }) => {
         title="Square screen"
         onPress={() => navigation.navigate("Square")}
       />
+      <Button title="Text screen" onPress={() => navigation.navigate("Text")} />
+      <Button title="Box screen" onPress={() => navigation.navigate("Box")} />
     </View>
   );
 };
